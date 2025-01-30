@@ -15,7 +15,7 @@ namespace RepeatSum
             int returnValue = 0; //declare return value to hold value to return
             int sum = 0;
 
-            for (int i = 0; i<aNumber; i+=2)
+            for (int i = 1; i<aNumber; i+=2)
             {
                 sum = sum + i;
             }
